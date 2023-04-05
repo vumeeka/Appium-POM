@@ -36,10 +36,6 @@ public class LoginTest extends BaseTest {
     public void afterMethod(){
 
     }
-
-
-
-
     @Test
     public void invalidUserName(){
        loginPage.enterUserName("invalidusername");
